@@ -1,5 +1,17 @@
-# unireality
-An AR experience creator entity for Unioeste Computer Science activities.
+Fixes & Improvements
 
+✅ Fixed Raycasting Issues
 
-Check out: https://shakmatton.github.io/unireality/
+    Ensures raycasting detects the correct clickable parent object.
+
+✅ Improved Dragging Logic
+
+    Uses delta movement (deltaX, deltaY) to adjust model position properly.
+
+✅ Avoids Confusion with pointerId
+
+    Instead of tracking pointerId, we just check draggingModel.
+
+✅ Cleaner Code & Better Scaling
+
+    Adjusts movement speed using a 0.001 scaling factor.
